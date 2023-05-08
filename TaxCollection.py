@@ -10,7 +10,7 @@ import os
 arcpy.env.overwriteOutput = True
 
 # Connect to the GIS
-gis = GIS(username="mbwanas150_EsriEAsolutions", password="****")
+gis = GIS(username="****", password="****")
 #print(gis.properties.user.username)
 
 # read the initial csv
